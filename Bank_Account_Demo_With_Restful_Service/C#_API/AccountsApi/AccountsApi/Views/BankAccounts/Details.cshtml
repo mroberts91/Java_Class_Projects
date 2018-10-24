@@ -1,0 +1,77 @@
+﻿@model AccountsApi.Models.BankAccount
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2 style="text-align:center; text-decoration:underline;">Details</h2>
+<br />
+<br />
+
+<div id="details-container">
+    <h4 style="font-weight: bold;">Bank Account</h4>
+    <h4>#@Html.DisplayFor(model => model.Id)</h4>
+    <hr />
+    <div id="noneds">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Balance)
+            </dt>
+            @if (Model.Balance < 0)
+            {
+                <dd style="color:red; font-weight:bold;">
+                    @String.Format("{0:C}", Model.Balance)
+                </dd>
+            }
+            else
+            {
+                <dd>
+                    @String.Format("{0:C}", Model.Balance)
+                </dd>
+            }
+            <dt>
+                @Html.DisplayNameFor(model => model.Deposits)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Deposits)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Withdrawals)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Withdrawals)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.APR)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.APR)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+            @if (Model.Status == AccountStatus.INACTIVE)
+            {
+                <dd style="color:red; font-weight:bold;">
+                    @Html.DisplayFor(model => model.Status)
+                </dd>
+            }
+            else
+            {
+                <dd>
+                    @Html.DisplayFor(model => model.Status)
+                </dd>
+            }
+        </dl>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script language="javascript" type="text/javascript">
+    window.setInterval(function () {
+        location.reload(true);
+    }, 7000);
+    
+</script>

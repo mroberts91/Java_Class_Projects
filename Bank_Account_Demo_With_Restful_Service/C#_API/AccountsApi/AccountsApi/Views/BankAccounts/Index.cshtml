@@ -1,0 +1,80 @@
+﻿@model IEnumerable<AccountsApi.Models.BankAccount>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Contoso National - Customer Accounts</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id) #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deposits)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Withdrawals)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.APR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            @if (item.Balance < 0)
+            {
+                <td style="color:red; font-weight:bold;">
+                    @String.Format("{0:C}", item.Balance)
+                </td>
+            }
+            else
+            {
+                <td>
+                    @String.Format("{0:C}", item.Balance)
+                </td>
+            }
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Deposits)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Withdrawals)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.APR)
+            </td>
+            @if (item.Status == AccountStatus.INACTIVE)
+            {
+                <td style="color:red; font-weight:bold;">
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+            }
+            else
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+            }
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

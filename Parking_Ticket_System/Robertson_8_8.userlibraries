@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="apiguardian-api-1.0.0">
+    <archive path="G:/My Drive/IST_271/Chapter _8/Robertson_8_8/lib/apiguardian-api-1.0.0.jar" />
+  </library>
+  <library name="junit-jupiter-api-5.0.0">
+    <archive path="G:/My Drive/IST_271/Chapter _8/Robertson_8_8/lib/junit-jupiter-api-5.0.0.jar" />
+  </library>
+  <library name="junit-platform-commons-1.0.0">
+    <archive path="G:/My Drive/IST_271/Chapter _8/Robertson_8_8/lib/junit-platform-commons-1.0.0.jar" />
+  </library>
+  <library name="mysql-connector-java-5.1.46">
+    <archive path="G:/My Drive/IST_271/Chapter _8/Robertson_8_8/lib/mysql-connector-java-5.1.46.jar" />
+  </library>
+  <library name="myutils">
+    <archive path="G:/My Drive/IST_271/Chapter _8/Robertson_8_8/lib/myutils.jar" />
+  </library>
+  <library name="opentest4j-1.0.0">
+    <archive path="G:/My Drive/IST_271/Chapter _8/Robertson_8_8/lib/opentest4j-1.0.0.jar" />
+  </library>
+  <library name="sqlite-jdbc-3.21.0">
+    <archive path="G:/My Drive/IST_271/Chapter _8/Robertson_8_8/lib/sqlite-jdbc-3.21.0.jar" />
+  </library>
+  <library name="bootstrap">
+    <archive path="C:/Users/michael.robertson/.IntelliJIdea2018.1/config/javascript/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.7_js_bootstrap.js" />
+    <archive path="C:/Users/michael.robertson/.IntelliJIdea2018.1/config/javascript/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_4.0.0_js_bootstrap.js" />
+  </library>
+  <library name="jquery">
+    <archive path="C:/Users/michael.robertson/.IntelliJIdea2018.1/config/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.1.1_jquery.js" />
+  </library>
+  <library name="jquery-3.3.1">
+    <archive path="C:/Users/michael.robertson/.IntelliJIdea2018.1/config/javascript/extLibs/http_code.jquery.com_jquery-3.3.1.js" />
+  </library>
+  <library name="jquery.dataTables">
+    <archive path="C:/Users/michael.robertson/.IntelliJIdea2018.1/config/javascript/extLibs/http_cdn.datatables.net_1.10.12_js_jquery.dataTables.js" />
+  </library>
+  <library name="popper">
+    <archive path="C:/Users/michael.robertson/.IntelliJIdea2018.1/config/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.12.9_umd_popper.js" />
+  </library>
+</eclipse-userlibraries>
+

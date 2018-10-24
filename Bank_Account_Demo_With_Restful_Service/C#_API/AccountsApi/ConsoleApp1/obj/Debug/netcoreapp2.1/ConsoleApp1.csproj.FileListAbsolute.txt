@@ -1,0 +1,16 @@
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\AccountsApi.Views.dll
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\AccountsApi.Views.pdb
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\AccountsApi.dll
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\bin\Debug\netcoreapp2.1\AccountsApi.pdb
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CopyComplete
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+G:\My Drive\IST_271\Chapter_10\AccountsApi\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/bin/test/Robertson_10_9"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+	</contentEntry>
+	<levels>
+		<level name="apiguardian-api-1.0.0" value="project"/>
+		<level name="junit-jupiter-api-5.0.0" value="project"/>
+		<level name="junit-platform-commons-1.0.0" value="project"/>
+		<level name="opentest4j-1.0.0" value="project"/>
+		<level name="commons-codec-1.10" value="project"/>
+		<level name="commons-logging-1.2" value="project"/>
+		<level name="fluent-hc-4.5.6" value="project"/>
+		<level name="httpclient-4.5.6" value="project"/>
+		<level name="httpclient-cache-4.5.6" value="project"/>
+		<level name="httpclient-win-4.5.6" value="project"/>
+		<level name="httpcore-4.4.10" value="project"/>
+		<level name="httpmime-4.5.6" value="project"/>
+		<level name="jna-4.4.0" value="project"/>
+		<level name="jna-platform-4.4.0" value="project"/>
+	</levels>
+</component>
